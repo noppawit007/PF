@@ -1,0 +1,174 @@
+
+#title {
+    display: inline;
+    background-color:#000000;
+    color:#FF00FF;;
+   
+
+
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #ce8989;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+}
+div.bo1 {
+    width:500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+div.bo2 {
+    width:500px;
+    margin: auto;
+    border: 3px solid #8d5914;
+}
+div.bo3 {
+    width:500px;
+    margin: auto;
+    border: 3px solid #bdab0b;
+}
+div.bo4 {
+    width:500px;
+    margin: auto;
+    border: 3px solid #109cc7;
+}
+div.pic1 {
+    width:500px;
+    margin: auto;
+    border: 3px solid #109cc7;
+}
+
+.menubar {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 0 10px #666; 
+}
+
+.menubar .logo {
+    float: left;
+}
+
+}
+.menubar ul.menu {
+    list-style: none;
+    float: right;
+}
+.menubar ul.menu li {
+    float: left;
+    margin-right: 20px;
+}
+.menubar ul.menu li a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.menubar ul.menu li a:hover {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0;
+}
+p.wit {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width:500px;
+    margin: auto;
+    border: 10px solid #c710a8;
+
+}
+
+p.facebook {
+    display: inline;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    width:500px;
+    margin: auto;
+    border: 3px solid #cc490c;
+}
+
+/* visited link */
+a:visited {
+    display: inline;
+    color: rgb(255, 255, 255);
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFFF00;
+}
+
+/* selected link */
+a:active {
+    color: #FF00FF;
+
+
+    span {
+        display: block;
+    }
+
+}
+
+div {
+
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.contact {
+    width: 100%;
+    height: 515px;
+}
+
+.contact_area h1 {
+    font-weight: normal;
+}
+.contact_area input {
+    margin: 10px 0;
+    border: 2px solid #333;
+    width: 350px;
+    padding: 10px;
+}
+
+.contact_area textarea {
+    margin: 10px 0;
+    border: 2px solid #333;
+    width: 350px;
+    padding: 10px;
+}
+
+.contact_area button {
+    padding: 10px;
+    width: 90px;
+    background: #333;
+    color: #fff;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.contact_area button:hover {
+    background: #fff;
+    color: #333;
+    border: 2px solid #333;
+}
