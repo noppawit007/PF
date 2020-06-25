@@ -3,80 +3,75 @@
     display: inline;
     background-color:#000000;
     color:#FF00FF;;
-   
-
-
 }
-.container {
-    width: 960px;
-    margin: 0 auto;
-}
-
-body {
+ {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
     background-color: #ce8989;
     text-align: center;
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-}
+  }
+  
+  /* หัวข้อข้างบน */
+  .header {
+    padding: 60px;
+    text-align: center;
+    background: #df1212;
+    color: white;
+  }
+  
+  /* Style the top navigation bar */
+  .navbar {
+    display: flex;
+    background-color: #333;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
 }
 div.bo1 {
     width:500px;
     margin: auto;
-    border: 3px solid #73AD21;
+    border: 3px solid #92ec14;
 }
 div.bo2 {
     width:500px;
     margin: auto;
-    border: 3px solid #8d5914;
+    border: 3px solid #b66f12;
 }
 div.bo3 {
     width:500px;
     margin: auto;
-    border: 3px solid #bdab0b;
+    border: 3px solid #e7d10a;
 }
 div.bo4 {
     width:500px;
     margin: auto;
-    border: 3px solid #109cc7;
+    border: 3px solid #0ebaee;
 }
 div.pic1 {
     width:500px;
     margin: auto;
-    border: 3px solid #109cc7;
+    border: 3px solid #7e10c7;
 }
 
-.menubar {
-    width: 100%;
-    height: 50px;
-    background: #fff;
-    box-shadow: 0 0 10px #666; 
-}
 
-.menubar .logo {
-    float: left;
-}
-
-}
-.menubar ul.menu {
-    list-style: none;
-    float: right;
-}
-.menubar ul.menu li {
-    float: left;
-    margin-right: 20px;
-}
-.menubar ul.menu li a {
-    text-decoration: none;
-    color: #333;
-    border-bottom: 2px solid transparent;
-    padding-bottom: 20px;
-    transition: all 0.3s ease;
-}
-.menubar ul.menu li a:hover {
-    border-bottom: 2px solid #333;
-    padding-bottom: 0;
-}
 p.wit {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -90,7 +85,7 @@ p.facebook {
     display: inline;
     background-color: #000000;
     color: rgb(255, 255, 255);
-    width:500px;
+    width:400px;
     margin: auto;
     border: 3px solid #cc490c;
 }
