@@ -14,6 +14,12 @@
     background-color: #ce8989;
     text-align: center;
   }
+    @media screen and (min-width: 480px) {
+        body {
+          background-color: lightgreen;
+        }
+    }
+  
   
   /* หัวข้อข้างบน */
   .header {
@@ -43,7 +49,6 @@
     color: black;
   }
   
-
 }
 div.bo1 {
     width:500px;
