@@ -36,6 +36,7 @@ export default () => {
     <div class="bo2">My Sudentid is 5735512094</div><br></br>
     <div class="bo3">My Faculty is Computer Engineering</div><br></br>
     <div class="bo4">My Nickname is Wit</div><br></br>
+    <div class="bo5">Phone is 0960063334</div><br></br>
     
       </content>
       <footer className='center flexbox-container'>
