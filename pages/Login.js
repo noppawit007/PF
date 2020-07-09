@@ -1,25 +1,18 @@
+import Navbar from '../components/Nev'
+import Header from '../components/Header'
+import Content from '../components/Content'
+import Footer from '../components/Footer'
+import Login from '../components/Login'
 import Head from 'next/head'
 
-const login = () => {
-    return (
-        <div>
-            
-        <div class="container">
-            <div class="contact_area">
-                <h1>Login</h1>
-                <form>
-                    <label>Username</label><br></br>
-                    <input type="text" placeholder="Username"></input><br></br>
-                    <label>Password</label><br></br>
-                    <input type="Password" placeholder="Password"></input><br></br>
-                    <button>send</button><br></br>
-                </form>
-            </div>
-        </div>
-    
-            
-            
-        </div>
-    )
+export default () => {
+  return (
+    <div>
+      <Header />
+      <Navbar/>
+      <Login/><br></br>
+      <Footer/>
+
+    </div>
+  )
 }
-export default login
