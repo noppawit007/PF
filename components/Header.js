@@ -5,7 +5,7 @@ const Header = () => {
             <Head>
                 <title>Profile</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
             </Head>
         </div>
     )
