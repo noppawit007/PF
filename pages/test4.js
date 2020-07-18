@@ -2,11 +2,11 @@ import T5 from './test5'
 
 const test4 = ()=> {
      
-    const name ="jgkgh"
+    
      return (
          
         <div>
-         <T5 name =<name> />
+         <T5 n =<name> />
          
          </div>
      )
