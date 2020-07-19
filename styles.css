@@ -21,7 +21,7 @@ body {
 .header {
   padding: 60px;
   text-align: center;
-  background: #df1212;
+  background: #470202;
   color: rgb(248, 244, 17);
 }
 
@@ -84,6 +84,18 @@ body {
 
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(8, 144, 185);
+}
+.flex-container > div {
+ 
+  
+  text-align: center;
+ 
+
 }
 div.bo1 {
   width:500px;
@@ -163,7 +175,7 @@ div {
 
 }
 
-.container {
+.login {
   width:500px;
   height: 300px;
   border: 3px solid #961284;
@@ -177,24 +189,24 @@ div {
   height: 515px;
 }
 
-.contact_area h1 {
+.login_area h1 {
   font-weight: normal;
 }
-.contact_area input {
+.login_area input {
   margin: 10px 0;
   border: 2px solid #333;
   width: 350px;
   padding: 10px;
 }
 
-.contact_area textarea {
+.login_area textarea {
   margin: 10px 0;
   border: 2px solid #333;
   width: 350px;
   padding: 10px;
 }
 
-.contact_area button {
+.login_area button {
   padding: 10px;
   width: 90px;
   background: #333;
@@ -204,7 +216,7 @@ div {
   transition: all 0.3s ease;
   cursor: pointer;
 }
-.contact_area button:hover {
+.login_area button:hover {
   background: #fff;
   color: #333;
   border: 2px solid #333;
