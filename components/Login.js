@@ -4,8 +4,8 @@ const Login = () => {
     return (
         <div>
             
-        <div class="container">
-            <div class="contact_area">
+        <div class="login">
+            <div class="login_area">
                 <h1>Login</h1>
                 <form>
                     <label>Username</label><br></br>
