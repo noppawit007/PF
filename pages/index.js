@@ -2,6 +2,7 @@ import Navbar from '../components/Nev'
 import Header from '../components/Header'
 import Content from '../components/Content'
 import Footer from '../components/Footer'
+import FistPage from '../components/FistPage'
 import Head from 'next/head'
 
 export default () => {
@@ -9,7 +10,7 @@ export default () => {
     <div>
       <Header />
       <Navbar/>
-      <Content/>
+      <FistPage/>
       <Footer/>
 
     </div>
