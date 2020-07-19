@@ -1,7 +1,10 @@
 import Navbar from '../components/Nev'
 import Header from '../components/Header'
+import Pic2 from './Pic2'
+import Pic3 from './Pic3'
+import Pic4 from './Pic4'
 
-const pic1 = () => {
+const Pic1 = () => {
    
   
     let url = [
@@ -10,18 +13,26 @@ const pic1 = () => {
         { image : 'https://cdn.pixabay.com/photo/2020/07/04/06/40/clouds-5368435__340.jpg'},
         { image : 'https://cdn.pixabay.com/photo/2019/08/06/12/14/chile-4388204__340.jpg'}
     ]
+        
     return (
         <div>
             <Header/>
             <Navbar/>
+           <div className = "flex-container" >           
+            
             <ul>
             {
                 url.map(item => (
-                    <li><img src ={item.image} alt="Me" width="250" height="200"/></li> )
-                )
+                    <li><img src ={item.image} alt="" width="400" height="400"/></li> )
+                    
+                    )
             }
             </ul>
+            <Pic2 url={url}/>
+            <Pic3 url={url}/>
+            <Pic4 url={url}/>
+            </div>
         </div>
     )
 }
-export default pic1
+export default Pic1
